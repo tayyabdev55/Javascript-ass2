@@ -25,7 +25,7 @@ h2
     text-align: center;
 }
 
-.btn 
+.btn
 {
     margin: 2px;
     padding: 4px;
@@ -34,12 +34,15 @@ h2
     width: 220px;
     height: 51px;
     
-    border: 1px solid;
+     border: 1px solid; 
     border-radius: 24px;
     border: none;
 
     cursor: pointer;
     font-size: 16px;
+
+    
+
 }
 
 .btn1:hover
@@ -48,6 +51,8 @@ h2
     background-color: #658354;
     color: white;
     transition: 0.3s;
+    transform: translateY(-5px);
+    transform: scale(1.08);
 }
 
 .btn2:hover 
@@ -56,6 +61,8 @@ h2
     background-color: #A4133C;
     color: white;
     transition: 0.3s;
+    transform: translateY(-5px);
+    transform: scale(1.08);
 }
 
 .btn3:hover 
@@ -64,6 +71,8 @@ h2
     background-color: #354c7c;
     color: white;
     transition: 0.3s;
+    transform: translateY(-5px);
+    transform: scale(1.08);
 }
 
 .btn4:hover 
@@ -72,4 +81,17 @@ h2
     background-color: #ec6d18;
     color: white;
     transition: 0.3s;
+    transform: translateY(-5px);
+    transform: scale(1.08);
+   
+
+    
 }
+
+.btn5:hover
+{
+    transition: 0.3s;
+    transform: translateY(-5px);
+    transform: scale(1.09);
+}
+
